@@ -1,41 +1,91 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(3, 4, 17);
     color: azure;
 }
-.main-content{
+
+.main-content {
     /* display: flex; */
     text-align: center;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
-.profile-img{
+
+.profile-img {
     border-radius: 50%;
     height: 18em;
     width: 20rem;
 }
-.socialImages{
+
+.socialImages {
     display: flex;
     justify-content: center;
 }
-.social-icon{
+
+.social-icon {
     margin: auto 2rem auto 2rem;
 }
-.article{
-margin: auto 20% auto 20%;
-text-align: center;
+
+.article {
+    margin: auto 10% auto 10%;
+    text-align: center;
 }
-.row{
+
+.row {
     display: flex;
 }
-.col5{
+
+.col5 {
     width: 50%;
     margin: auto 5rem auto 5rem;
 }
-.portfolio-img{
-width: 33%;
-margin: 2rem;
-position: relative;
 
+.portfolio-img {
+    width: 33%;
+    /* margin: 2rem 2re; */
+    position: relative;
+}
+
+.portfolio-img2 {
+    width: 33%;
+    margin: auto 2rem;
+    position: relative;
+}
+
+.portfolio-img img,
+.portfolio-img2 img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    border-color: blanchedalmond;
+}
+
+h3 {
+    border-color: aliceblue;
+    border-style: solid;
+    margin: 2rem 20%;
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+
+.infosec {
+    margin: 0;
+    font-size: 2.2rem;
+    font-family: Ubuntu, sans-serif !important;
+}
+
+.contactRow {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 1rem;
+    font-size: 1.5rem;
 }
