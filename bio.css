@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 4, 17);
+    color: azure;
+}
+.main-content{
+    /* display: flex; */
+    text-align: center;
+    margin: 0 auto;    
+}
+.profile-img{
+    border-radius: 50%;
+    height: 18em;
+    width: 20rem;
+}
+.socialImages{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    margin: auto 2rem auto 2rem;
+}
+.article{
+margin: auto 20% auto 20%;
+text-align: center;
+}
+.row{
+    display: flex;
+}
+.col5{
+    width: 50%;
+    margin: auto 5rem auto 5rem;
+}
+.portfolio-img{
+width: 33%;
+margin: 2rem;
+position: relative;
+
+}
