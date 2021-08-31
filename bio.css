@@ -81,6 +81,36 @@ body {
     display: flex;
 }
 
+.chat {
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+
+.one {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 3rem;
+    line-height: 1.6;
+    width: 795px;
+    font-weight: 700;
+    margin: 51px auto 0;
+    font-family: Merriweather, serif !important;
+    color: #f7d7c8 !important;
+}
+
+hr {
+    width: 50rem;
+}
+
+.principal {
+    line-height: 2.3rem;
+    text-align: left;
+}
+
 .col5 {
     width: 50%;
     margin: 5rem auto 5rem;
